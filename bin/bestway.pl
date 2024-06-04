@@ -103,6 +103,7 @@ sub getDeviceId{
 sub getCurrentState(){
 	my $request = HTTP::Request->new(GET => "https://euapi.gizwits.com/app/devdata/$cfg->{deviceId}/latest");
 	$request->header('X-Gizwits-Application-Id' => '98754e684ec045528b073876c34c7348');
+ 	$request->header('X-Gizwits-User-token' => $cfg->{token});
 
 	my $ua = LWP::UserAgent->new;
 	my $response = $ua->request($request);
