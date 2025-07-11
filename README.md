@@ -1,3 +1,3 @@
-# lazy_spa
+# lay_z_spa
 
-Zukünftiges Loxberry-Plugin für die Anbindung von Bestway Lazy-Spa Whirlpools (die mit WLANfähiger Pumpe) über mqtt an Loxone
+Loxberry-Plugin für die Anbindung von Bestway Lay-Z-Spa Whirlpools (die mit WLANfähiger Pumpe) über mqtt an Loxone
